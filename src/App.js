@@ -5,6 +5,7 @@ import Poster from './components/Poster/Poster';
 import Header from './components/Header';
 import ContentChoose from './components/Content/ContentChoose';
 import ProjectList from './components/Content/ProjectList';
+import EducationList from './components/EducationList';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Poster />
       <ContentChoose />
       <ProjectList />
+      <EducationList />
     </>
   );
 }
