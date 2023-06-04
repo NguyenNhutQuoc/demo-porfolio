@@ -1,12 +1,12 @@
 import Container from "./Container";
 import Header from "./Header";
 
-const EducationList = () => {
+const Companies = () => {
   return (
     <>
-      <div className="py-[150px] background-image-learning">
+      <div className="py-[150px] background-image-working">
         <Container>
-          <Header title={"EDUCATION PROCESSING"} />
+          <Header title={"COMPANIES WORKING"} />
 
           <div
             className="
@@ -34,7 +34,7 @@ const EducationList = () => {
                             flex-1
                         "
               >
-                09/2020 - 01/2023
+                08/2022 - 11/2022
               </div>
               <div
                 className="
@@ -51,33 +51,33 @@ const EducationList = () => {
                                 font-semibold
                             "
                 >
-                  Sai Gon College
+                  Biz4 Group Company
                 </div>
                 <div
                   className="
-                                text-gray-100
+                                text-gray-600
                                 text-[18px]
                                 font-semibold
                             "
                 >
-                  <span className="text-gray-100 text-[19px]">Major: </span>{" "}
-                  Computer Programming
+                  <span className="text-black text-[19px]">Position: </span>{" "}
+                  Internship
                 </div>
                 {/* Description about what studied */}
                 <div
                   className="
-                                text-gray-200
+                                text-gray-400
                                 text-[16px]
                                 font-semibold
                             "
                 >
-                  I am one of the outstanding students at my school and
-                  well-known by many professors. My GPA on a 4-point scale is
-                  3.8. Throughout my time in school, I have been fortunate
-                  enough to receive the AI Developer scholarship from ISC Quang
-                  Trung. Additionally, I am one of the two students chosen to
-                  represent our school in the Computer Science Olympiad in
-                  Hanoi.
+                  During my internship at Biz4 Group, I gained valuable
+                  experience in web programming, specifically focusing on the
+                  back-end and data aspects. For back-end development, I used
+                  .NET Core, and for data management, I worked with Microsoft
+                  SQL Server. Additionally, I had the opportunity to learn about
+                  teamwork, effective work practices, and problem-solving
+                  skills.
                 </div>
               </div>
             </div>
@@ -99,7 +99,7 @@ const EducationList = () => {
                             flex-1
                         "
               >
-                06/2021 - 05/2022
+                11/2022 - 06/2023
               </div>
               <div
                 className="
@@ -116,31 +116,36 @@ const EducationList = () => {
                                 font-semibold
                             "
                 >
-                  Sai Gon College
+                  Biz4 Group Company
                 </div>
                 <div
                   className="
-                                text-gray-100
+                                text-gray-600
                                 text-[18px]
                                 font-semibold
                             "
                 >
-                  <span className="text-gray-100 text-[19px]">Major: </span>{" "}
-                  Tham gia lớp thuật toán
+                  <span className="text-black text-[19px]">Position: </span>{" "}
+                  Data Admin and Back-end Developer
                 </div>
                 {/* Description about what studied */}
                 <div
                   className="
-                                text-gray-200
+                                text-gray-400
                                 text-[16px]
                                 font-semibold
                             "
                 >
-                  By participating in the algorithm class, I have learned a
-                  great deal about AI algorithms, including Backtracking and
-                  Dynamic Programming. This knowledge has helped me become one
-                  of the two students selected to compete in the Olympics. It
-                  has been a process of hard work and continuous development.
+                  When I took on both positions officially, I had the
+                  opportunity to take on a lot of responsibilities, which
+                  naturally came with increased pressure. However, I was able to
+                  handle all of those pressures. During my time in these two
+                  roles, I learned a great deal about back-end and data
+                  development. Specifically, I gained knowledge on organizing
+                  data, writing efficient and maintainable C# code, and
+                  optimizing stored procedures for maximum effectiveness. I
+                  continued to learn and expand my skills in various other areas
+                  as well.
                 </div>
               </div>
             </div>
@@ -162,7 +167,7 @@ const EducationList = () => {
                             flex-1
                         "
               >
-                10/2021 - 01/2022
+                06/2023 - NOW
               </div>
               <div
                 className="
@@ -179,31 +184,34 @@ const EducationList = () => {
                                 font-semibold
                             "
                 >
-                  Sai Gon College
+                  Công ty TNHH HDWEBSOFT
                 </div>
                 <div
                   className="
-                                text-gray-100
+                                text-gray-600
                                 text-[18px]
                                 font-semibold
                             "
                 >
-                  <span className="text-white text-[19px]">Major: </span> Tham
-                  gia khóa thực tập AI Developer
+                  <span className="text-black text-[19px]">Position: </span>{" "}
+                  Back-end Developer
                 </div>
                 {/* Description about what studied */}
                 <div
                   className="
-                                text-gray-200
+                                text-gray-400
                                 text-[16px]
                                 font-semibold
                             "
                 >
-                  Participating in this AI course has made it easier for me to
-                  access general AI knowledge and specifically, Machine
-                  Learning. The course has provided me with a solid foundation
-                  of knowledge, enabling me to self-study and create
-                  high-quality AI products.
+                  This company has been operating and developing for over 12
+                  years and is an outsourcing company, providing me with
+                  numerous opportunities to work on different projects and
+                  business domains. This allows me to enhance my ability to
+                  quickly grasp new business concepts and learn various
+                  development skills. By doing so, I can contribute more
+                  effectively to the company, ultimately helping to increase its
+                  revenue.
                 </div>
               </div>
             </div>
@@ -214,4 +222,4 @@ const EducationList = () => {
   );
 };
 
-export default EducationList;
+export default Companies;

@@ -37,3 +37,13 @@ code {
   height: 40vh;
   width: 100%;
 }
+
+.background-image-learning {
+  background: url('./images/wp8149811.jpg') center no-repeat;
+  background-size:cover;
+}
+
+.background-image-introduction {
+  background: url('./images/introductionImage.jpeg') center no-repeat;
+  background-size:cover;
+}
